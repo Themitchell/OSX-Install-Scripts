@@ -59,6 +59,9 @@ brew cask install quicklook-json
 brew cask install quicklook-pfm
 brew cask install sequel-pro
 brew cask install silverlight
+brew cask install smcfancontrol
+# Symlink smc-cli command to /usr/local/bin
+ln -s /opt/homebrew-cask/Caskroom/smcfancontrol/2.5.2/smcFanControl.app/Contents/Resources/smc /usr/local/bin/
 brew cask install soundflower
 brew cask install spotify
 brew cask install supercollider
