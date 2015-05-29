@@ -44,6 +44,9 @@ brew cask install cycling74-max
 brew cask install firefox
 brew cask install flash-player
 brew cask install google-chrome
+# Remove chrome to play nice with 1password
+rm -r /Applications/Google\ chrome.app
+mv /opt/homebrew-cask/Caskroom/google-chrome/latest/Google\ chrome.app /Applications
 brew cask install google-hangouts
 brew cask install handbrake
 brew cask install handbrake-batch
